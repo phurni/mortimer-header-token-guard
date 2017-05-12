@@ -1,0 +1,19 @@
+{
+    "name": "mortimer/header-token-guard",
+    "description": "Laravel package providing a Guard that let's you au authenticate users from a token in a custom HTTP header",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pascal Hurni",
+            "email": "phi@pragmaticpurist.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mortimer\\HeaderTokenGuard\\": "src/"
+        }
+    }   
+}
